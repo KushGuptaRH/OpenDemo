@@ -1,0 +1,10 @@
+---
+- name: This is a demo play
+  hosts: localhost
+  become: true
+  tasks:
+    - name: this is a name filler
+      copy:
+        content: |
+          Hello World
+        dest: ./testfile
