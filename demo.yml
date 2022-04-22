@@ -7,4 +7,4 @@
       copy:
         content: |
           Hello World
-        dest: ./testfile
+        dest: /home/testfile
