@@ -10,4 +10,4 @@
         dest: /home/testfile.txt
     - name: file lookup demo
       debug:
-        msg: "{{ lookup('file', 'testfile.txt') }}"
+        msg: "{{ lookup('file', '/home/testfile.txt') }}"
