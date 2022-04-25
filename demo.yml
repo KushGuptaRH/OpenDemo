@@ -1,6 +1,6 @@
 ---
 - name: This is a demo play
-  hosts: all
+  hosts: localhost
   become: true
   tasks:
     - name: this is a name filler
