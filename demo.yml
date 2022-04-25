@@ -8,6 +8,6 @@
         content: |
           Lets make a change
         dest: /home/testfile.txt
-    - name: This is a plugin example
+    - name: This is a checking if the file exists and the contents
       debug:
         msg: "{{ lookup('file', '/home/testfile.txt') }}"
