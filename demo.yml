@@ -3,11 +3,11 @@
   hosts: localhost
   become: true
   tasks:
-    - name: this is a name filler
+    - name: This is a name filler
       copy:
         content: |
           Lets make a change
         dest: /home/testfile.txt
-    - name: file lookup demo
+    - name: This is a plugin example
       debug:
         msg: "{{ lookup('file', '/home/testfile.txt') }}"
