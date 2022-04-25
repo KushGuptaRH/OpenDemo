@@ -7,4 +7,7 @@
       copy:
         content: |
           Lets make a change
-        dest: /home/testfile
+        dest: /home/testfile.txt
+    - name: file lookup demo
+      debug:
+        msg: "{{ lookup('file', 'testfile.txt') }}"
