@@ -3,7 +3,7 @@
   hosts: localhost
   become: true
   tasks:
-    - name: This is a name filler
+    - name: This is an example of copy
       copy:
         content: |
           Lets make a change
