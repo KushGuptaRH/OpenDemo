@@ -1,6 +1,6 @@
 ---
 - name: This is a demo play
-  hosts: localhost
+  hosts: all
   become: true
   tasks:
     - name: This is an example of copy
