@@ -7,7 +7,7 @@
       copy:
         content: |
           Lets make a change
-        dest: /home/testfile.txt
+        dest: /var/testfile.txt
     - name: This is a check if the file exists and the contents
       debug:
-        msg: "{{ lookup('file', '/home/testfile.txt') }}"
+        msg: "{{ lookup('file', '/var/testfile.txt') }}"
